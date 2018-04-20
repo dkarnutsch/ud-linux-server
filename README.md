@@ -1,6 +1,7 @@
 # ud-linux-server
 * Server-Address/Webhost: http://35.157.68.204/
 * SSH-Port: 2200
+* Graders-PW: udacity
 ## Configuration Steps
 ### Update Server Software
 * `sudo apt-get update`
@@ -32,6 +33,7 @@
 * Put the public key into the created file
 * Restart SSH with `sudo service ssh restart`
 * Disable PW login in `/etc/ssh/ssh_config`
+* Disable Root ligin in `/etc/ssh/ssh_config`
 ### Set Timezone to UTC
 * `sudo timedatectl set-timezone Etc/UTC`
 ### Install and configure Apache
